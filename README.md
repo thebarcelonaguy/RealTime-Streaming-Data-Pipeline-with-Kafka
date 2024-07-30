@@ -31,14 +31,5 @@ pip install requests
 python -m producer.py
 ```
 
-##### TODO
-- [x] Inital local working version 
-- [x] Dockerise Kafka
-- [x] Dockerise PySpark
-- [x] Dockerise Streamlit
-- [x] Dockerise FastAPI
-- [x] Docker Compose
-- [ ] End to End Test
-
 #### Notes
 When builidng images for `consumer` and `producer` set the context to root dir, this allows us to use the `scripts/kafka-wait.py` script.
